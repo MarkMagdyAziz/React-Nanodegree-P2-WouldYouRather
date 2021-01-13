@@ -10,8 +10,8 @@ import {
 
 const square = { width: 50, height: 50, backgroundColor: "#4EB5AD" };
 
-const LeaderboardCard = () => {
-  const { user } = this.props;
+const LeaderboardCard = (props) => {
+  const { user } = props;
   let score = user.questions.length + Object.keys(user.answers).length;
 
   return (

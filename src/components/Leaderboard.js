@@ -3,9 +3,8 @@ import { connect } from "react-redux";
 import { Container } from "semantic-ui-react";
 import LeaderboardCard from "./LeaderboardCard";
 
-const Leader = (props) => {
+const Leaderboard = (props) => {
   const { sortedUsers } = props;
-
   return (
     <Container>
       <ul className="user-list">
@@ -27,8 +26,7 @@ function mapStateToProps({ users }) {
   });
 
   return {
-    users,
     sortedUsers,
   };
 }
-export default connect(mapStateToProps)(Leader);
+export default connect(mapStateToProps)(Leaderboard);
