@@ -9,7 +9,7 @@ This is React application is an assignment to the second project for Udacity's R
 - Udacity Team
 - Mark Wahba mark.aziz.magdy@gmail.com
 
-## To get started the project
+## Installation
 
 Clone the repository, change directories, and use NPM to install the dependencies.
 
