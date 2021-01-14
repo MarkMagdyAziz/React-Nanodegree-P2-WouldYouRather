@@ -75,8 +75,8 @@ function mapStateToProps(
 Card.propTypes = {
   questionId: PropTypes.string,
   unanswered: PropTypes.bool,
-  question: PropTypes.object.isRequired,
-  author: PropTypes.object.isRequired,
-  pollType: PropTypes.string.isRequired,
+  question: PropTypes.object,
+  author: PropTypes.object,
+  pollType: PropTypes.string,
 };
 export default connect(mapStateToProps)(Card);

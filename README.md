@@ -1,3 +1,24 @@
+# Would You Rather App Project
+
+** Version 1.0**
+
+This is React application is an assignment to the second project for Udacity's React & Redux course.
+
+## Contributors
+
+- Udacity Team
+- Mark Wahba mark.aziz.magdy@gmail.com
+
+## Installation To get started the project :
+
+Clone the repository, change directories, and use NPM to install the dependencies.
+
+```bash or terminal
+$ git clone the project `https://github.com/MarkMagdyAziz/React-Nanodegree-P2-WouldYouRather`
+$ cd reactnd-project-would-you-rather
+$ install the dependencies - `npm install`
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -67,13 +88,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
----
-
-# Would You Rather Project
-
-This is the starter code for the final assessment project for Udacity's React & Redux course.
+## This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
 
